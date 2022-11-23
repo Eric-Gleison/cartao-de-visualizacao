@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit&family=Roboto&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit&family=Roboto&display=swap');
+
+
+body{
+    background-color:#F3EAE3;
+    
+    
+}
+
+.imagem{
+    
+    max-width: 500x;
+    max-height: 400px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,-50%);
+    
+
+}
+
+.conteudo{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-50%);
+    background-color: aliceblue;
+    width: 270px;
+    height: 400px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+       
+}
+
+.perfume{
+    margin-top: 25px;
+    padding-left: 5px;
+    opacity: calc(40%);
+    font-size: 50%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    
+}
+
+.gabrielle{
+    margin-top: 15px;
+    font-size: 39px;
+    margin-left: 15px;
+    line-height: 0.9;
+}
+
+.paragrafo{
+    margin-top: 25px;
+    padding-left: 5px;
+    opacity: calc(40%);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+
+}
+
+.preco-avista{
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    margin-left: 15px;
+    color: #3D8168;
+}
+
+.preco{
+
+    opacity: calc(40%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(80%,510%);
+    font-size: 15px;
+}
+input{
+    background-color: #3D8168;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: -5%;
+    left: 13%;
+
+}
